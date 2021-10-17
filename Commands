@@ -1,0 +1,11 @@
+Ls(List Storage) - It is used to see everything in the current directory.
+Ls -a  It shows you all the files(hidden files).
+~ - always represents home folder
+PWD(Print Working Directoty) - It tells you where exactly you are in the file system and gives you the full path.
+cd .. is used to to move one level up.
+pushd /etc - to move into the etc directory
+popd is used to get back where i was.
+locate command - to locate files
+file .filename
+sudo updatedb - to update the database
+which command is used to find the other commands- to check if they are installed or not  and to check where they are located.Ex- which locate
