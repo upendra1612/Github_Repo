@@ -8,4 +8,20 @@ popd is used to get back where i was.
 locate command - to locate files
 file .filename
 sudo updatedb - to update the database
-which command is used to find the other commands- to check if they are installed or not  and to check where they are located.Ex- which locate
+which command is used to find the other commands- to check if they are installed or not  and to check where they are located.Ex- which locate.
+History - command is used to see all the commands that we have used in the terminal and it can show last 1000 commands.
+whatis command is used to know the purpose of the command.Ex- what is locate
+apropos - is used to find all the commands related to a particular command/ not sure which command to be used. Ex- apropos time.
+
+----------------------------------------------------
+
+mkdir directoryname - used to create a directory
+touch filename1 filename2 - touch command is used to create files inside the directory
+cp ~/ . filenameinotherdirectory - This command is used to copy the file from other directory to current directory.
+cp filename filename.bak - This command is used to take a backup of the file.
+cp filename filename.bak - This command is used to take backup of a file.
+mv filename1 filename2 -This command is used to merge two files.
+rm filename -This command is used to delete the file.
+rm -r -This command removes directories and files
+
+
