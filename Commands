@@ -22,6 +22,36 @@ cp filename filename.bak - This command is used to take a backup of the file.
 cp filename filename.bak - This command is used to take backup of a file.
 mv filename1 filename2 -This command is used to merge two files.
 rm filename -This command is used to delete the file.
-rm -r -This command removes directories and files
+rm -r -This command removes directories and files.
+rmdir directoryname - This command is used to delete directories.
+
+cat filename -This command used to display the content in the file.
+cat >> filename - This command is used to create a new file quicly and to enter the content. press ctrl+D to save it.
+cat filename1 filename2 - This command is used to view the content in both the files.
+
+
+more filename - This command is old and used to read the file using spacebar.Queue is used to prompt back.
+less filename - This command is also sed to read the file ,and use queue to exit from less.
+nano filename - This command is used to edit a file. Nano is a editot in Linux OS.
+
+cat >> filename - redirection concept-Use this command to append content to a file without creating a newfile. ex- cat >> demo3.ext
+nano demo3.ext to see the appended data.
+
+cat > filename - This command is used to remove all the existing data  and we can enter the new data.
+
+sudo -s -This command is used to activate the root user and will get disabled after sometime.
+sudo updatedb - used to update database
+su - name - This command is used to login to other user
+chmod +x filename - This command is used to grant permission to ececute a file
+
+rwx 
+421
+
+ctrl+c - to kill any process
+killall firefox - to kill the application
+ctrl+l -to clear the terminal
+ctrl+shift+plus/- - to change the font size in the terminal
+
+
 
 
