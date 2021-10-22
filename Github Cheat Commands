@@ -1,0 +1,49 @@
+The first thing you should do when you install Git is to set your user name and email address. This is important because every Git commit uses this information, 
+and it’s immutably baked into the commits that you start creating.
+
+$ git config --global user.name "Upendra Chirumamilla"
+$ git config --global user.email "upendra.ch123@gmail.com"
+
+git config --global color.ui auto - This command enables command line coloring output.
+
+In a local machine to make a working directory as repository use the below command
+Git init
+
+To create files inside a directory use the below command
+Touch filename1 filename2
+
+Git Status - This command is used to check the status of the files.
+
+Git add filename -This command is used to add single file to the staging area.
+Git add . -> This command is used to add all the files in the directory to the staging area.
+Git rm --cached filename -> This command is used to unstage the file
+Git rm -r cached . -> This command is used to unstage all files in the directory.
+Git add -A -> This command is used to stage all the unstaged files from all the directories.
+
+Commit is the save point.
+Git commit -m "Github project" -> This command is used to commit the files from the staging area.
+Git commit --amend -m "added body in main.css" -> This command is used to amend the commit message
+
+Git log -> This command is used to track the changes.
+
+vi filename -> and press i ->then enter the data want to change in the file-> then press escape key-> colon(:)wq - This command is used to edit a file.
+
+Git remote add origin httpurl -> This command is used to connect with repo
+Git branch -M main -> This command is used to change branch from master to main
+Git push -u origin main -> This command is used to push the files.
+
+If we got error like permission denied then follow the steps in the below url to connect github with SSH.
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+
+
+Git branch branchname -> This command is used to create  a new branch.
+Git checkout branchname -> This command is used to switch between the branches.
+Git checkout - -> This command is used to switch back to previous branch.	
+Git checkout -b branchname -> This command is used to create and checkout to that branch.
+Git branch -d branchname -> This command is used to delete the branch.
+Git pull -r origin main -> This command is used to pull the changes from main branch and our changes on top of it.
+Git rebase --continue -> This command is used for rebase.
+
+Git push -f -> This command is used for force push.
+
+
